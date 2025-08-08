@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu vertical en flex</title>
+    <style>
+        .cajita{
+      background-color: rgb(123,198,199,0.8);
+      margin: 5px;
+      padding: 5px;
+      font-family: sans-serif;
+    }
+    .caja-progenitora{
+      flex-flow: column-reverse;
+    }
+    .hija1{
+      flex: 1 1 auto;
+    }
+    .hija2{
+      flex: 1 1 auto;
+    }
+    .hija3{
+      flex: 1 1 auto;
+    }
+    .hija4{
+      flex: 1 1 auto;
+    }
+    </style>
+</head>
+<body>
+    <section class="caja-progenitora">
+    <article class="cajita hija1">Home</article>
+    <article class="cajita hija2">Servicios</article>
+    <article class="cajita hija3">Opciones</article>
+    <article class="cajita hija4">Planes</article>
+    <article class="cajita hija5">Contacto</article> 
+  </section>    
+</body>
+</html>
